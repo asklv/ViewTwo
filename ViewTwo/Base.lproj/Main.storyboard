@@ -16,27 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p1w-el-EWi">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p1w-el-EWi">
                                 <rect key="frame" x="20" y="462" width="374" height="400"/>
-                                <viewLayoutGuide key="safeArea" id="Bz1-QV-ETV"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gC2-Lz-7fP">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gC2-Lz-7fP">
                                 <rect key="frame" x="20" y="44" width="374" height="400"/>
-                                <viewLayoutGuide key="safeArea" id="zHz-r4-lQe"/>
                                 <color key="backgroundColor" systemColor="secondaryLabelColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="gC2-Lz-7fP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="IS6-At-D6b"/>
-                            <constraint firstItem="p1w-el-EWi" firstAttribute="top" secondItem="gC2-Lz-7fP" secondAttribute="bottom" constant="18" id="acb-gA-Fd7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="p1w-el-EWi" secondAttribute="bottom" id="cVd-qw-DTC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gC2-Lz-7fP" secondAttribute="trailing" constant="20" id="pU3-G2-ARr"/>
-                            <constraint firstItem="gC2-Lz-7fP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pUa-wK-lqA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p1w-el-EWi" secondAttribute="trailing" constant="20" id="t8q-ik-Xug"/>
-                            <constraint firstItem="p1w-el-EWi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="wJC-fC-BSr"/>
+                            <constraint firstItem="p1w-el-EWi" firstAttribute="top" secondItem="gC2-Lz-7fP" secondAttribute="bottom" constant="18" id="2m1-5V-RY4"/>
+                            <constraint firstItem="gC2-Lz-7fP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4bc-uC-I18"/>
+                            <constraint firstItem="p1w-el-EWi" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="900-qu-URR"/>
+                            <constraint firstItem="gC2-Lz-7fP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="DrH-jc-1tS"/>
+                            <constraint firstItem="p1w-el-EWi" firstAttribute="width" secondItem="gC2-Lz-7fP" secondAttribute="width" id="JwF-P6-Hsg"/>
+                            <constraint firstItem="p1w-el-EWi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QzJ-0p-rrW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gC2-Lz-7fP" secondAttribute="trailing" constant="20" id="Vgx-nE-cSy"/>
+                            <constraint firstItem="p1w-el-EWi" firstAttribute="height" secondItem="gC2-Lz-7fP" secondAttribute="height" id="zb1-Ou-PCA"/>
                         </constraints>
                     </view>
                 </viewController>
